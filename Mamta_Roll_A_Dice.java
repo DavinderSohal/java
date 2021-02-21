@@ -1,4 +1,3 @@
-//Assignment 2 ( Mamta (1994765) and Jaskarndeep singh sekhon (2092094)) Software testing
 
 import java.util.Random;
 import java.util.Scanner;
