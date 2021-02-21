@@ -1,7 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Four: Common Substring Algorithm
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program ask the user to enter some strings(more than 2) and then finds the common substring among them
 // -----------------------------------------------------
 
