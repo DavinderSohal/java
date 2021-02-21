@@ -1,6 +1,5 @@
 /* -----------------------------------------------------
  Assignment # 1
- Written by: Davinder Singh (2092836) and Navneet Kaur (2092453)
  The program when executed will prompt the user to select one of the 4 patterns they want to print and after receiving
  valid input, user would have to enter the required number of rows for their pattern and the project will print that
  pattern.
