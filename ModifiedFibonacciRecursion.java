@@ -1,6 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
-// Question Six: Modified Fibonacci Recursion\
+// Question Six: Modified Fibonacci Recursion
 // This program ask the user to enter a number and then prints a fibonacci series as per the input
 // -----------------------------------------------------
 

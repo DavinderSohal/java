@@ -1,5 +1,4 @@
 /*Assignment No :1
-    Written by: Simranjit Kaur Student id: 2092430
     This program is about printing the different types of patterns*/
 import java.util.*;
 public class Patterns {

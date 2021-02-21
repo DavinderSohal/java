@@ -1,7 +1,5 @@
 /*
-Assignment 1 (Mamta(1994765) and Jaskarndeep singh sekhon(2092094)) Software testing
-This is the Java assignment where user can print different patters by inputting the numbers, this will display the
-welcome message
+This is the Java assignment where user can print different patters by inputting the numbers, this will display the welcome message
 Then after it will ask user that which type pattern users want to print.
 After inputting the number the code will print the pattern, it will print the pattern on the basis of the even odd
 numbers, if user will put the wrong number in the input, it will show the error and ask users to put the number.

@@ -1,6 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
-// Question One: Multiplication Table\
+// Question One: Multiplication Table
 // Program prints a multiplication matrix after taking input from user and main diagonal is replaced by "*".
 // -----------------------------------------------------
 
