@@ -4,13 +4,27 @@
 // two dice are rolled using two different methods(util.Random and Math.random).
 // -----------------------------------------------------
 
+/*
+Write a program to simulate the rolling of two dice. The program should use Math.Random and util.Random object to
+roll the first and second die. Using a two dimensional array to tally the number of times each sum appears using the
+random number generator methods.
+
+Your program should:
+1. Display a welcoming message
+2. Ask the user how many sides each die has
+3. Create the 2-d array to hold the frequency counter of each possible sums
+4. Ask the user how many times they want the dice to be rolled using both methods
+5. Print the expected frequencies and actual frequencies and percentages each sum appeared in both methods in a
+tabular format.
+6. Repeat steps 3 to 5 as long as the user wants.
+7. End with a closing message
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class RandomNumberGenerator
-{
-    public static void main(String[] args)
-    {
+public class RandomNumberGenerator{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Random rn = new Random();
         System.out.println("\n%-----D A V I N D E R-----2 0 9 2 8 3 6-----%");

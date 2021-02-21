@@ -5,12 +5,23 @@
 // conditions
 // -----------------------------------------------------
 
+/*
+Write a program that incorporates an algorithm with a function that will check whether or not a string is in a valid
+password format with the following rules:
+
+A password must have at least ten characters.
+A password consists of only letters, digits and symbol(s).
+A password must contain at least two digits.
+A password must contain at least one uppercase letter
+A password must contain at least one special symbol
+
+Your program should continue to prompt the user until he/she enters a valid password.
+*/
+
 import java.util.Scanner;
 
-class PasswordChecker
-{
-    public static void main(String[] args)
-    {
+class PasswordChecker{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         //displaying conditions to the user

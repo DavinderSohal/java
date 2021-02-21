@@ -3,11 +3,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 // Defining a class
-public class Mamta_Roll_A_Dice
-{
+public class Mamta_Roll_A_Dice{
     // Starting of the main program
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         // Printing welcoming message
         System.out.println("Welcome to the Roll a dice Program");

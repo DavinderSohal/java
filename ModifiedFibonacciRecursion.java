@@ -4,12 +4,19 @@
 // This program ask the user to enter a number and then prints a fibonacci series as per the input
 // -----------------------------------------------------
 
+/*
+Using recursion, write a program that takes an input ‘n’ (a number) from a user to calculate and print out the
+Fibonacci using the following modified definition:
+
+F(N) = 1                                                    if n = 1 or n = 2
+         = F((n+1)/2)2 + F((n-1/2)2            if n is odd
+         = F(n/2 + 1)2 – F(n/2 – 1)2           if n is even
+*/
+
 import java.util.Scanner;
 
-public class ModifiedFibonacciRecursion
-{
-    static int fibonacci(int n)
-    {
+public class ModifiedFibonacciRecursion{
+    static int fibonacci(int n){
         //defining the conditions for the series
         if(n <= 2){
             return 1;
@@ -20,8 +27,7 @@ public class ModifiedFibonacciRecursion
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter value: ");
         int n = sc.nextInt();

@@ -4,10 +4,13 @@
 // This program just simply prints the number of hours, minutes, and seconds that corresponds to 50391 total seconds
 // -----------------------------------------------------
 
-public class TimeAlgorithm
-{
-    public static void main(String[] args)
-    {
+/*
+Write a program that outputs and prints the number of hours, minutes, and seconds that corresponds to 50391 total
+seconds. The output should be 13 hours, 59 minutes, and 51 seconds.
+*/
+
+public class TimeAlgorithm{
+    public static void main(String[] args){
         //first loop for hours
         for(int i = 0; i < 24; i++){
             //second loop for minutes
