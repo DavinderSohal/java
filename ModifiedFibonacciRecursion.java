@@ -1,7 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Six: Modified Fibonacci Recursion
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program ask the user to enter a number and then prints a fibonacci series as per the input
 // -----------------------------------------------------
 
