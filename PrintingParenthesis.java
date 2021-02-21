@@ -1,16 +1,18 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Seven: Printing Parenthesis
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program ask the user to enter a number and then prints all its valid combinations
 // -----------------------------------------------------
 
+/*
+Write a program that uses a recursive algorithm to print all the valid (properly closed and open brackets)
+combinations of a number of parentheses taken from the user.
+*/
+
 import java.util.Scanner;
 
-public class PrintingParenthesis
-{
-    static void parenthesis(char[] ch, int index, int no_of_parenthesis, int open_count, int close_count)
-    {
+public class PrintingParenthesis{
+    static void parenthesis(char[] ch, int index, int no_of_parenthesis, int open_count, int close_count){
         //termination condition
         if(close_count == no_of_parenthesis){
             for(char c : ch){
@@ -35,8 +37,7 @@ public class PrintingParenthesis
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter number of Parenthesis: ");
         int no_of_parenthesis = sc.nextInt();

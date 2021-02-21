@@ -1,4 +1,3 @@
-
 /*import java.util.Scanner;
 public class jasspash {
 
@@ -50,14 +49,15 @@ public class jasspash {
 
 
 }*/
+
 import java.util.Random;
 
 public class jasspash{
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println(generatePassword(8));
     }
 
-    private static char[] generatePassword(int length) {
+    private static char[] generatePassword(int length){
         String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
         String specialCharacters = "!@#$";
@@ -71,7 +71,7 @@ public class jasspash{
         password[2] = specialCharacters.charAt(random.nextInt(specialCharacters.length()));
         password[3] = numbers.charAt(random.nextInt(numbers.length()));
 
-        for(int i = 4; i< length ; i++) {
+        for(int i = 4; i < length; i++){
             password[i] = combinedChars.charAt(random.nextInt(combinedChars.length()));
         }
         return password;

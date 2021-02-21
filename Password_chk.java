@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-public class Password_chk
-{
+public class Password_chk{
     public static final int PASSWORD_LENGTH = 10;
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print(
                 "1. A password must have at least ten characters.\n" +
@@ -22,11 +20,10 @@ public class Password_chk
 
     }
 
-    public static boolean is_Valid_Password(String password)
-    {
+    public static boolean is_Valid_Password(String password){
         boolean temp = true;
         if(password.length() < PASSWORD_LENGTH){
-            temp= false;
+            temp = false;
         }
         int charCount = 0;
         int numCount = 0;
@@ -52,22 +49,21 @@ public class Password_chk
                 || password.contains(", ") || password.contains("<")
                 || password.contains(">") || password.contains("?")
                 || password.contains("|"))){
-            temp= false;
+            temp = false;
         }
 
         if(!(charCount >= 1 && numCount >= 2 && temp)){
-        temp=false;}
+            temp = false;
+        }
         return temp;
     }
 
-    public static boolean is_Letter(char ch)
-    {
+    public static boolean is_Letter(char ch){
         return (Character.isUpperCase(ch));
     }
 
 
-    public static boolean is_Numeric(char ch)
-    {
+    public static boolean is_Numeric(char ch){
         return (ch >= '0' && ch <= '8');
     }
 }

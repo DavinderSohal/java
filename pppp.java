@@ -1,10 +1,7 @@
-
 import java.util.Scanner;
 
-public class pppp
-{
-    public static void main(String[] args)
-    {
+public class pppp{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         //displaying conditions to the user
@@ -68,7 +65,7 @@ public class pppp
                 }
             }
         }
-        System.out.println("\nYour password is valid: "+ password);
+        System.out.println("\nYour password is valid: " + password);
     }
 }
 

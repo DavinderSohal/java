@@ -1,16 +1,18 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Five: String Permutation
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program ask the user to enter a string and then displays all its possible permutations
 // -----------------------------------------------------
 
+/*
+Write a program that uses a recursive method/algorithm to compute all permutations of a string that is unique taken
+from the user. Permutation is defined as a way or several possibilities in which a number or things can be organized.
+*/
+
 import java.util.Scanner;
 
-public class StringPermutation
-{
-    public static void permutation(String word, String perm, int num)
-    {
+public class StringPermutation{
+    public static void permutation(String word, String perm, int num){
         //termination condition
         if(word.isEmpty()){
             if(num == 0){
@@ -29,8 +31,7 @@ public class StringPermutation
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("\nEnter a String");
         System.out.print("Your input is: ");

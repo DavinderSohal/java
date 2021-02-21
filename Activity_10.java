@@ -1,3 +1,29 @@
+/*
+Two-dimensional Arrays. ... A 2D array has a type such as int[][] or String[][], with two pairs of square brackets.
+The elements of a 2D array are arranged in rows and columns, and the new operator for 2D arrays specifies both the
+number of rows and the number of columns. For example, int[][] A; A = new int[3][4];
+Create the following java program:
+	This program will display a mark table to the user, depending on its input.
+	The columns represents the subjects.
+	The rows represents the students.
+	Algorithm to input data from the user:
+o	Ask the user how many subjects (columns) he wants.
+o	Ask the user how many students (rows) he wants.
+o	For each student, loop and ask a mark for each subject
+	The final output needs to respects the following:
+How the program will display the final output:
+
+Marks for the 3 students
+
+|-----|-----|-----|
+|  75 |  80 |  75 |
+|-----|-----|-----|
+|  80 |  85 |  80 |
+|-----|-----|-----|
+|  85 |  90 |  85 |
+|-----|-----|-----|
+*/
+
 import java.util.Scanner;
 
 public class Activity_10{

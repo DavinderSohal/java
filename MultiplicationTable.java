@@ -1,16 +1,18 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
-// Question One: Multiplication Table
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
+// Question One: Multiplication Table\
 // Program prints a multiplication matrix after taking input from user and main diagonal is replaced by "*".
 // -----------------------------------------------------
 
+/*
+Write a program to display on the screen a multiplication table from 1 to n; where n is an integer entered by the
+user. The main diagonal of the table must be filled with the character ‘*’.
+*/
+
 import java.util.Scanner;
 
-class MultiplicationTable
-{
-    public static void main(String[] args)
-    {
+class MultiplicationTable{
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
         //try and catch to handle exceptions

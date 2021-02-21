@@ -8,10 +8,8 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class dice
-{
-    public static void main(String[] args)
-    {
+public class dice{
+    public static void main(String[] args){
         Random ran = new Random();
         Scanner sc = new Scanner(System.in);
         System.out.println("%-0-1-2-3-4-5-6-7-8-9-0-1-2-3-4-5-6-7-8-9-0-%");
@@ -35,7 +33,7 @@ public class dice
             }
             for(int i = 0; i < noOfTimes; i++){
 
-            	//getting random values for the dice
+                //getting random values for the dice
                 int dice1_math = (int)(Math.random() * range) + min;
                 int dice2_math = (int)(Math.random() * range) + min;
                 int dice1_util = (int)(ran.nextDouble() * range) + min;
@@ -48,25 +46,25 @@ public class dice
             System.out.println("\t\t\t\t\t\t\t\t\t" + "(Util.Random)" + "\t\t" + "(Math.Random)");
             System.out.println("-----------------------------------------------------------------------------");
 
-			for(int i = 2; i < 2 * noOfSides + 1; i++){
+            for(int i = 2; i < 2 * noOfSides + 1; i++){
 
-				//calculating probabilities
-				double probForUtilRandom = (double)(frequency[i][0] * 100f / noOfTimes);
-				double probForMathRandom = (double)(frequency[i][1] * 100f / noOfTimes);
+                //calculating probabilities
+                double probForUtilRandom = frequency[i][0] * 100f / noOfTimes;
+                double probForMathRandom = frequency[i][1] * 100f / noOfTimes;
 
-				int freq = 0;
-				if(i > noOfSides){
-					freq = 2 * noOfSides - i + 1;
-				}else{
-					freq = i - 1;
-				}
-				double probForOccurrence = (double)(freq * 100f / (noOfSides * noOfSides));
-				System.out.print(i + "\t\t\t");
-				System.out.printf("(%5d) %5s", freq, Math.round(probForOccurrence * 100.0) / 100.0 + "%" + "\t\t\t");
-				System.out.printf("(%5d) %5s", frequency[i][0], Math.round(probForUtilRandom * 100.0) / 100.0 + "%" +
-						"\t\t");
-				System.out.println("(" + frequency[i][1] + ")" + Math.round(probForMathRandom * 100.0) / 100.0 + "%");
-			}
+                int freq = 0;
+                if(i > noOfSides){
+                    freq = 2 * noOfSides - i + 1;
+                }else{
+                    freq = i - 1;
+                }
+                double probForOccurrence = freq * 100f / (noOfSides * noOfSides);
+                System.out.print(i + "\t\t\t");
+                System.out.printf("(%5d) %5s", freq, Math.round(probForOccurrence * 100.0) / 100.0 + "%" + "\t\t\t");
+                System.out.printf("(%5d) %5s", frequency[i][0], Math.round(probForUtilRandom * 100.0) / 100.0 + "%" +
+                        "\t\t");
+                System.out.println("(" + frequency[i][1] + ")" + Math.round(probForMathRandom * 100.0) / 100.0 + "%");
+            }
             System.out.print("\nDo you want to repeat with different number of rolls? (any character by y to quit) ");
             s = sc.next();
         }while(s.equalsIgnoreCase("Y"));

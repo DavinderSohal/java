@@ -1,9 +1,14 @@
+/*
+1.	Read 2 numbers and multiply them together and display them
+2.	Read one number and tell the use if the number equals to 5 or not
+3.	Read a number.  If number is between 1 and 10, display blue, if between 10 and 20, display green, and otherwise
+display incorrect value.
+*/
+
 import java.util.Scanner;
 
-public class Activity_12_1
-{
-    public static void main(String[] args)
-    {
+public class Activity_12_1{
+    public static void main(String[] args){
         Scanner dc = new Scanner(System.in);
         System.out.println("Enter 2 number");
         int num1 = dc.nextInt();

@@ -1,14 +1,16 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Two: Time Algorithm
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program just simply prints the number of hours, minutes, and seconds that corresponds to 50391 total seconds
 // -----------------------------------------------------
 
-public class TimeAlgorithm
-{
-    public static void main(String[] args)
-    {
+/*
+Write a program that outputs and prints the number of hours, minutes, and seconds that corresponds to 50391 total
+seconds. The output should be 13 hours, 59 minutes, and 51 seconds.
+*/
+
+public class TimeAlgorithm{
+    public static void main(String[] args){
         //first loop for hours
         for(int i = 0; i < 24; i++){
             //second loop for minutes

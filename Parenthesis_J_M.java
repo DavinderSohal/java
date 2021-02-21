@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class Parenthesis_J_M
-{
+public class Parenthesis_J_M{
 
-    public static void Validparentheses(int openP, int closeP, String string)
-    {
+    public static void Validparentheses(int openP, int closeP, String string){
         if(openP == 0 && closeP == 0) // mean all opening and closing in
         {
             System.out.print(string + ',');
@@ -21,13 +19,11 @@ public class Parenthesis_J_M
         }
     }
 
-    public static void printParentheses(int n)
-    {
+    public static void printParentheses(int n){
         Validparentheses(2 * n / 2, 2 * n / 2, "");
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         // TODO Auto-generated method stub
         int n;
         Scanner sc = new Scanner(System.in);
