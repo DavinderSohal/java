@@ -1,6 +1,5 @@
 // -----------------------------------------------------
 // Assignment # 2
-// Written by: Davinder Singh (2092836) and Navneet Kaur (2092453)
 // It is a program which calculates the probability of the sum that should occur and the probability that occurred when
 // two dice are rolled using two different methods(util.Random and Math.random).
 // -----------------------------------------------------
