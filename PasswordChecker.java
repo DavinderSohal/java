@@ -1,7 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Three: Password Checker
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program prompts the user to enter a password and then checks if the password entered meets all the provided
 // conditions
 // -----------------------------------------------------
