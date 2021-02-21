@@ -1,7 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question One: Multiplication Table
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // Program prints a multiplication matrix after taking input from user and main diagonal is replaced by "*".
 // -----------------------------------------------------
 
