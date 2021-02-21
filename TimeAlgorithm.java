@@ -1,7 +1,6 @@
 // -----------------------------------------------------
 // Assignment # 3 (Project)
 // Question Two: Time Algorithm
-// Written by: Davinder Singh (2092836), Navneet Kaur (2092453) and Simranjit Kaur (2092430)
 // This program just simply prints the number of hours, minutes, and seconds that corresponds to 50391 total seconds
 // -----------------------------------------------------
 
